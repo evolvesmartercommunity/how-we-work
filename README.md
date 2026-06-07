@@ -69,9 +69,9 @@ A strong community is not defined by the number of its members, but by the way i
 
 - **Tasks are created as issues** (by [Cypher1305](https://github.com/Cypher1305) or the project's team lead)
 - Each Contributor **assigns or receives** an issue
-- A branch is **created from `dev`** for each issue (Always from dev branch)
+- A branch is **created from `develop`** for each issue (Always from dev branch)
 - Commit messages must reference the issue ID
-- A **pull request** (PR) is made to `dev`
+- A **pull request** (PR) is made to `develop`
 - 1 branch = 1 fonctionnality/feature = 1 PR
 - Once the PR has been accepted, **the branch is deleted**
 
@@ -80,7 +80,7 @@ A strong community is not defined by the number of its members, but by the way i
 | Branche | Usage |
 |---------|-------|
 | `main` | Stable version, ready for production |
-| `dev` | Development base (all functionalities converge here) |
+| `develop` | Development base (all functionalities converge here) |
 
 ### 🌱 Branch nomenclature
 
@@ -125,8 +125,8 @@ git fetch upstream # to fetch remote branches
 ```
 3. Create a branch from issue
 ```bash
-git checkout dev
-git pull upstream dev
+git checkout develop
+git pull upstream develop
 git checkout -b Feature/BY/#12-add-orientation-form
 ```
 _Bring your contribution on your branch_
